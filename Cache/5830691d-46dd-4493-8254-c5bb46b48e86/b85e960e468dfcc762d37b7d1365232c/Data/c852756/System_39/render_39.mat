@@ -1,9 +1,9 @@
-- !<Material/d7636424-e9f6-4ffb-85b3-a864702e8e58>
+- !<Material/540bae79-b20e-4e93-b4d1-8468f3da6e8c>
   PackagePath: ""
   PassesInfo:
-    - !<own> 7e9e8a49-6791-45e6-a2bd-9626ff4c5af9
+    - !<own> d208140e-c7b3-4448-8439-1d3a36d55490
   Name: Material_Render
-- !<PassInfo/7e9e8a49-6791-45e6-a2bd-9626ff4c5af9>
+- !<PassInfo/d208140e-c7b3-4448-8439-1d3a36d55490>
   CachedProperties:
     - renderTarget0:
         typeIdx: 9

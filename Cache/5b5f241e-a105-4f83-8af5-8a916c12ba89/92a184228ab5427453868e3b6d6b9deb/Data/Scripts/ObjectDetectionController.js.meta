@@ -7,13 +7,9 @@
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
     JavaScriptAsset: !<own> cf8c1ada-fb91-456f-bfee-b9cc5c095a63
-  DependentFiles:
-    []
-  ImporterSettings: !<AssetImporterSettings>
-    {}
+  DependentFiles: []
+  ImporterSettings: !<AssetImporterSettings/26cfc9f6-8d9b-414f-a0c1-80a6ee1895af> {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData:
-    {}
 - !<ScriptAssetData/cf8c1ada-fb91-456f-bfee-b9cc5c095a63>
   SvgIcon: ""
   Description: ""
@@ -21,7 +17,7 @@
   VersionMajor: 0
   VersionMinor: 0
   VersionPatch: 0
-  ComponentUid: d0a9efd2-b8b5-4502-afbc-0a296af62ef4
+  ComponentUid: fbfb4c03-204c-44b1-86b0-a5bbab312b00
   ExportUid: 00000000-0000-0000-0000-000000000000
   CurrentVisibility: Editable
   MaxVisibility: Editable
@@ -34,8 +30,7 @@
     mlController: false
     objectToCopy: false
     smoothing: false
-  ScriptTypesHidden:
-    {}
+  ScriptTypesHidden: {}
   DefaultScriptInputs:
     - counter: !<reference.Text> 00000000-0000-0000-0000-000000000000
       objectToCopy: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
@@ -46,6 +41,4 @@
       matchingThreshold: 0.500000
       lostFramesThreshold: 0
   ScriptTypes:
-    -
-      {}
-  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+    - {}

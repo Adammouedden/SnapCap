@@ -854,7 +854,7 @@
   VersionMajor: 0
   VersionMinor: 0
   VersionPatch: 0
-  ComponentUid: 296f9aaf-da11-4805-b847-7e4ab206fdb0
+  ComponentUid: c8432b7c-bc28-41fb-9006-8cc962f00ae7
   ExportUid: 00000000-0000-0000-0000-000000000000
   CurrentVisibility: Editable
   MaxVisibility: Editable
@@ -1323,7 +1323,7 @@
   VersionMajor: 0
   VersionMinor: 0
   VersionPatch: 0
-  ComponentUid: 203a0de2-6b0e-4cb5-a757-32e800eae6b5
+  ComponentUid: 73c178a5-d6cc-4234-97cb-80700e185aa8
   ExportUid: 00000000-0000-0000-0000-000000000000
   CurrentVisibility: Editable
   MaxVisibility: Editable
@@ -1543,9 +1543,16 @@
     - atlas_0.png
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: None
-    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings>
+          Level: Medium
+    ExtensionMappings:
+      png: Performance Compression
+    Overrides:
+      {}
   ExtraData:
     {}
 - !<AssetImportMetadata/b385ef6c-d42d-4cd2-a8e4-4b0075ec77af>
@@ -1805,7 +1812,7 @@
   VersionMajor: 0
   VersionMinor: 0
   VersionPatch: 0
-  ComponentUid: d0a9efd2-b8b5-4502-afbc-0a296af62ef4
+  ComponentUid: fbfb4c03-204c-44b1-86b0-a5bbab312b00
   ExportUid: 00000000-0000-0000-0000-000000000000
   CurrentVisibility: Editable
   MaxVisibility: Editable

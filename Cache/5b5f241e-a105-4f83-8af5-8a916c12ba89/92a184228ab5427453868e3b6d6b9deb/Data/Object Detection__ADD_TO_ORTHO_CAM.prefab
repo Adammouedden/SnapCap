@@ -180,9 +180,7 @@
     - !<reference> f3d51731-f947-46be-a346-a7935e13b856
   FlipX: false
   FlipY: false
-  RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
-  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/20fcb51a-1660-42ed-a712-b2d0fe3f3f88>
   PrefabRemaps:
     []
@@ -323,56 +321,43 @@
     top: 0.000000
   OverflowVertical: Overflow
   OverflowHorizontal: Shrink
-  Fill: !<TextFill>
+  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
     Mode: Solid
     Color: {x: 1.000000, y: 0.999969, z: 0.999985, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
-    TileCount: 5.000000
-    TileZone: Rect
-    TextureStretch: FitWidth
-  Outline: !<OutlineSettings>
+  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
     Enabled: false
-    Fill: !<TextFill>
+    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
-      TileCount: 5.000000
-      TileZone: Rect
-      TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings>
+  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
     Enabled: false
-    Fill: !<TextFill>
+    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.266346}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
-      TileCount: 5.000000
-      TileZone: Rect
-      TextureStretch: FitWidth
     OffsetX: 0.000000
     OffsetY: 0.000000
-  Background: !<BackgroundSettings>
+  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
     Enabled: false
-    Fill: !<TextFill>
+    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
-      TileCount: 5.000000
-      TileZone: Rect
-      TextureStretch: FitWidth
     Margins:
       left: 0.000000
       bottom: 0.000000
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout>
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
     CapitalizationOverride: None
   DepthTest: false
-  TwoSided: false
 - !<Image/2ed20130-7d41-45a1-803f-ca776ed4b30f>
   PrefabRemaps:
     []
@@ -389,9 +374,7 @@
     - !<reference> f08149b5-42ca-4f5b-9797-cf0872d70030
   FlipX: false
   FlipY: false
-  RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
-  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
 - !<ScreenRegionComponent/33bffd24-1864-470f-9900-56105c808f67>
   PrefabRemaps:
     []
@@ -543,56 +526,43 @@
     top: 0.000000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill>
+  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
     Mode: Solid
     Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
-    TileCount: 5.000000
-    TileZone: Rect
-    TextureStretch: FitWidth
-  Outline: !<OutlineSettings>
+  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
     Enabled: true
-    Fill: !<TextFill>
+    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
-      TileCount: 5.000000
-      TileZone: Rect
-      TextureStretch: FitWidth
     Size: 0.730000
-  Dropshadow: !<DropshadowSettings>
+  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
     Enabled: true
-    Fill: !<TextFill>
+    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
-      TileCount: 5.000000
-      TileZone: Rect
-      TextureStretch: FitWidth
     OffsetX: 0.000000
     OffsetY: 0.300000
-  Background: !<BackgroundSettings>
+  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
     Enabled: false
-    Fill: !<TextFill>
+    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
-      TileCount: 5.000000
-      TileZone: Rect
-      TextureStretch: FitWidth
     Margins:
       left: 0.000000
       bottom: 0.000000
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout>
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: -0.020000
     LineSpacing: 1.000000
     CapitalizationOverride: None
   DepthTest: false
-  TwoSided: false
 - !<ScreenTransform/6cf82cb8-eaf0-4eec-86a1-9607d0fdbb0d>
   PrefabRemaps:
     []
@@ -691,9 +661,7 @@
     - !<reference> a0c34d56-5aee-4564-afed-dc4208c07e50
   FlipX: false
   FlipY: false
-  RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
-  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
 - !<ScreenTransform/7471b7aa-4d7c-47eb-b317-9f35498a2849>
   PrefabRemaps:
     []
@@ -930,7 +898,7 @@
   AutoBuild: true
   AutoRun: false
   Inputs:
-    - !<MLInput>
+    - !<MLInput/7b768eef-76ba-4c8b-b176-ac172f7b58c9>
       Name: data
       Shape: {x: 128.000000, y: 256.000000, z: 3.000000}
       Normalizations:
@@ -948,9 +916,9 @@
         flipX: false
         flipY: false
         rotation: None
-      Texture: !<reference> a440e65c-ad7e-4e54-b88b-261ae0cb079d
+      Texture: !<reference> 996c6f4e-b2ad-4117-9e3e-3db82e6e97f5
   Outputs:
-    - !<MLOutput>
+    - !<MLOutput/5de72e53-cff6-49b0-8c53-b3dcbb80d6d6>
       Name: loc
       Shape: {x: 16.000000, y: 32.000000, z: 4.000000}
       Normalizations:
@@ -964,7 +932,7 @@
           bias: 0.000000
       InputName: ""
       OutputTexture: !<reference> 00000000-0000-0000-0000-000000000000
-    - !<MLOutput>
+    - !<MLOutput/e6e53e13-e5c2-449c-a332-6da47632f3bb>
       Name: cls
       Shape: {x: 16.000000, y: 32.000000, z: 1.000000}
       Normalizations:
@@ -989,9 +957,7 @@
     - !<reference> d9d16561-8b0d-43fa-944a-0684b7238cfc
   FlipX: false
   FlipY: false
-  RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
-  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/bcddbfdb-e5f4-488e-ac74-e6d2a02a65bc>
   PrefabRemaps:
     []
@@ -1090,9 +1056,7 @@
     - !<reference> d7ac1e45-e4a4-4e7e-9e01-ed2b21d20b01
   FlipX: false
   FlipY: false
-  RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
-  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
 - !<ScreenTransform/cc720816-bd19-4572-94a9-46255c29f7a4>
   PrefabRemaps:
     []
@@ -1142,9 +1106,7 @@
     - !<reference> 7a745075-2ea7-4600-b963-0a7557bf5e35
   FlipX: false
   FlipY: false
-  RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
-  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/dadfc9ff-4f55-489e-90e5-fa3d0a371aef>
   PrefabRemaps:
     []
@@ -1218,9 +1180,7 @@
     - !<reference> 0c3dfcad-5765-442f-ac96-ea80f838c109
   FlipX: false
   FlipY: false
-  RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
-  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
 - !<ScreenTransform/ebe2d22b-ef16-4cb8-a55f-b50651f0c169>
   PrefabRemaps:
     []

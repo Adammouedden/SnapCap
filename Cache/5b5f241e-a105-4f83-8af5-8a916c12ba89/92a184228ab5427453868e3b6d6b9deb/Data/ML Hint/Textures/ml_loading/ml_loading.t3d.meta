@@ -10,13 +10,18 @@
     AnimatedTexture: !<own> 57bbfdaf-0384-4915-87da-3100572d21d4
   DependentFiles:
     - atlas_0.png
-  ImporterSettings: !<AssetImporterSettings>
+  ImporterSettings: !<AssetImporterSettings/75e96490-152e-4a26-b7ff-2d8f2fd86688>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: None
-    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData:
-    {}
+  CompressionSettings: !<ComplexCompressionSettings/9458cbfa-146d-42b3-a274-38892bb49ae1>
+    Presets:
+      Performance Compression: !<SingleCompressionSettings/a67ae55f-45ca-402f-b3ea-2f73786f7602>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings/16968d7a-7eb8-4815-865f-f8b996808c14>
+          Level: Medium
+    ExtensionMappings:
+      png: Performance Compression
+    Overrides:
+      {}
 - !<AnimatedTextureData/57bbfdaf-0384-4915-87da-3100572d21d4>
   AutoPlay: true
   Reversed: false

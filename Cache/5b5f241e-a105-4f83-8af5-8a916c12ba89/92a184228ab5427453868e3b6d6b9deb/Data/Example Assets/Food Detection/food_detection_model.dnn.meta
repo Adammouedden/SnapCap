@@ -9,9 +9,9 @@
     {}
   DependentFiles:
     []
-  ImporterSettings: !<FileMLAssetImporterSettings>
+  ImporterSettings: !<FileMLAssetImporterSettings/4e121355-94a1-41b6-b411-4820d7c69346>
     Inputs:
-      - !<MLInput>
+      - !<MLInput/912c559b-3aac-436a-b265-18503f2a348c>
         Name: data
         Shape: {x: 128.000000, y: 256.000000, z: 3.000000}
         Normalizations:
@@ -31,7 +31,7 @@
           rotation: None
         Texture: !<reference> 00000000-0000-0000-0000-000000000000
     Outputs:
-      - !<MLOutput>
+      - !<MLOutput/a692bc9d-ab32-4aa9-a425-f184aaac5859>
         Name: loc
         Shape: {x: 16.000000, y: 32.000000, z: 4.000000}
         Normalizations:
@@ -45,7 +45,7 @@
             bias: 0.000000
         InputName: ""
         OutputTexture: !<reference> 00000000-0000-0000-0000-000000000000
-      - !<MLOutput>
+      - !<MLOutput/1b57544c-7447-4e3b-abbb-12f9955d530e>
         Name: cls
         Shape: {x: 16.000000, y: 32.000000, z: 1.000000}
         Normalizations:
@@ -53,8 +53,6 @@
             bias: 0.000000
         InputName: ""
         OutputTexture: !<reference> 00000000-0000-0000-0000-000000000000
-  CompressionSettings: !<SingleCompressionSettings>
+  CompressionSettings: !<SingleCompressionSettings/75fc597d-9379-47be-86dc-2831f0c0fbe4>
     CompressorName: None
     CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData:
-    {}
