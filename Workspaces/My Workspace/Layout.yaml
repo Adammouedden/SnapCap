@@ -66,11 +66,11 @@ dock:
           - persistentName: Snap.Plugin.AssistantAI.Panel
             Uuid: df91b2cf-37e1-401c-83fc-3d9f83343e71
         type: section
-        current: 1
+        current: 0
     sizes:
-      - 346
-      - 399
-      - 436
+      - 304
+      - 471
+      - 406
       - 338
     type: splitter
     orientation: horizontal
