@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    a8311185-92d0-465f-8b48-f4c407ec17f5: 71b619c7-f09a-4d0b-bd2d-f4ac66ba83a3/059147a2aefbec80ae404df7b6c09297/Data/speechbubble 2D.jpg
+  Assets:
+    - !<FileTexture/a8311185-92d0-465f-8b48-f4c407ec17f5>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 640
+        Height: 570
+  SourceHash: 059147a2aefbec80ae404df7b6c09297
+  FileHash: 0c0e16ba403a51de25575614f3ca066e
+  NativePackageItems:
+    []

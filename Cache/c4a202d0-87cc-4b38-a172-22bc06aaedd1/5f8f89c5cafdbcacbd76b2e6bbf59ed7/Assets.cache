@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    c4a76a2f-9f22-4f5d-a337-559008b7f3f3: 2019249b-e4e4-4a73-a7de-1bc67962bfed/5f8f89c5cafdbcacbd76b2e6bbf59ed7/Data/big_hint_car.png
+  Assets:
+    - !<FileTexture/c4a76a2f-9f22-4f5d-a337-559008b7f3f3>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 5f8f89c5cafdbcacbd76b2e6bbf59ed7
+  FileHash: 5a7fa51c86b9479b3cf2a689d211d706
+  NativePackageItems:
+    []

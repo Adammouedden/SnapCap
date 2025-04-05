@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    4d576439-1de4-44f0-a355-687a9ce905f2: 66f4e6aa-2c79-4f26-9ac5-7da9b2aa451d/77494dfec656b8e87d0b472b456d4289/Data/vertical_frame_tex.png
+  Assets:
+    - !<FileTexture/4d576439-1de4-44f0-a355-687a9ce905f2>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 81
+        Height: 1
+  SourceHash: 77494dfec656b8e87d0b472b456d4289
+  FileHash: f6d80343461badb14d61cb9a7fdd9700
+  NativePackageItems:
+    []

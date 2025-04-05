@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    9372cd66-8735-4313-9c42-cf29873eda0d: 54bc722d-ca71-459e-879a-6d466f1ae662/e192acd5579d326a8b6787ced82cdf49/Data/small_hint_car.png
+  Assets:
+    - !<FileTexture/9372cd66-8735-4313-9c42-cf29873eda0d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: e192acd5579d326a8b6787ced82cdf49
+  FileHash: 7e5cf52cfbbf44caf53dbfa4402f8a32
+  NativePackageItems:
+    []

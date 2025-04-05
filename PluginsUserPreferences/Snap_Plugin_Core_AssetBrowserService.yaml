@@ -1,0 +1,5 @@
+ExternalSources:
+  type: "std::map<class Es::Uuid,class Es::Path,struct std::less<class Es::Uuid>,class std::allocator<struct std::pair<class Es::Uuid const ,class Es::Path> > >"
+  value:
+    - 71b619c7-f09a-4d0b-bd2d-f4ac66ba83a3: "C:/Users/adamm/Downloads/speechbubble 2D.jpg"
+  options: 4

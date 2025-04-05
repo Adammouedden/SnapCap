@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    34b8b4fd-ec55-496b-bf6c-3e0cf42dff93: e9805e8a-5ae2-45b6-86bf-3af57f4cbb32/b652e3cdc7a7c38ec94f4e81086bd762/Data/Simple Frame.png
+  Assets:
+    - !<FileTexture/34b8b4fd-ec55-496b-bf6c-3e0cf42dff93>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 220
+        Height: 220
+  SourceHash: b652e3cdc7a7c38ec94f4e81086bd762
+  FileHash: 5744ac01262b675a58709ced4c236d6f
+  NativePackageItems:
+    []
