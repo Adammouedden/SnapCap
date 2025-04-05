@@ -1,0 +1,60 @@
+- !<ObjectPrefab/982b3771-6cbb-4b69-a84f-3d4d3de36ca5>
+  PackagePath: ""
+  objects:
+    - !<own> 08fdec1a-60e7-4598-9035-1e9f2341e7ce
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/08fdec1a-60e7-4598-9035-1e9f2341e7ce>
+  PrefabRemaps:
+    []
+  Name: PersonTag
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 10.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 32.000000, y: 32.000000, z: 32.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f8c7092f-cca0-4693-8e5f-09aa8ef77420
+    - !<own> 0b0c5663-ed53-45bd-b622-ea551cd82d8e
+- !<Image/0b0c5663-ed53-45bd-b622-ea551cd82d8e>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e3112ff2-6b44-4646-acd9-97f4fcb71d3a
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<Image/f8c7092f-cca0-4693-8e5f-09aa8ef77420>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 525e5722-9142-4670-8a06-8c77fef28775
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
